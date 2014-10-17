@@ -1,7 +1,9 @@
 require 'sinatra'
 
-module Pebbles
+module Koyabu
   class Server < Sinatra::Base
+    register Sinatra::Gyazo
+
     get '/' do
       'Hello World'
     end

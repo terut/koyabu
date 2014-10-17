@@ -1,3 +1,10 @@
+GIT
+  remote: github.com:terut/sinatra-gyazo
+  revision: c69075341bc17ab80070b8481c10f8eab4ed4763
+  specs:
+    sinatra-gyazo (0.0.1)
+      sinatra (~> 1.4.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -10,10 +17,10 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
-    thin (1.6.2)
-      daemons (>= 1.0.9)
-      eventmachine (>= 1.0.0)
-      rack (>= 1.0.0)
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
     tilt (1.4.1)
 
 PLATFORMS
@@ -21,4 +28,5 @@ PLATFORMS
 
 DEPENDENCIES
   sinatra
+  sinatra-gyazo!
   thin
