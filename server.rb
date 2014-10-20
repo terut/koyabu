@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'pry'
 
 module Koyabu
   class Server < Sinatra::Base
