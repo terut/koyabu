@@ -8,8 +8,8 @@ pid 'tmp/pids/unicorn.pid'
 
 timeout 30
 
-stderr_path File.expand_path('log/unicorn.log', ENV['RACK_ENV'])
-stdout_path File.expand_path('log/unicorn.log', ENV['RACK_ENV'])
+stderr_path File.expand_path('log/unicorn.log', app_path)
+stdout_path File.expand_path('log/unicorn.log', app_path)
 
 preload_app true
 GC.respond_to?(:copy_on_write_friendly=) and GC.copy_on_write_friendly = true
