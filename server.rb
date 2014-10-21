@@ -3,7 +3,8 @@ require 'sinatra'
 module Koyabu
   class Server < Sinatra::Base
     configure do
-      enable :logging
+      enable :logging, :dump_errors, :raise_errors
+
       file = File.new("#{settings.root}/log/#{settings.environment}.log", 'a+')
       file.sync = true
       use Rack::CommonLogger, file
