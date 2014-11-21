@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/terut/sinatra-gyazo.git
-  revision: 13bab47b6a99fc901c964ed43a20eb8b43350f4b
+  revision: 5ff6e5078a04d3eba90066b706c1ba92c52ae648
   specs:
     sinatra-gyazo (0.0.1)
       sinatra (~> 1.4.5)
